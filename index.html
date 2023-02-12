@@ -23,7 +23,28 @@
   <link href="bootstrap/bootstrap.css" rel="stylesheet">
   <link href="bootstrap/style.css" rel="stylesheet">
   <script src="bootstrap/jq.js"></script>
+  <style>
+    @media only screen and (max-width: 414px) {
+    .cd {
+  position: absolute !important;
+  bottom: -60px !important;
+  width: 100%;
+}
+main{
+  height: 50px;
+  z-index: 50 !important;
+}
+.page-footer{
+  position: absolute !important;
+  bottom: -50px !important;
+  width: 100%;
+}
 
+
+    }
+
+
+  </style>
 </head>
 <body>
 
@@ -80,22 +101,22 @@
    <div class="container">
 
     <main class="text-light" role="main">
-      <h1 class="text-center">Welcome to Dragon-Ring Website</h1>
+      <h2 class="text-center">Welcome to Dragon-Ring Website</h2>
         <section  class="text-center">
   <div id="carouselExampleSlidesOnly" class="carousel slide text-black-50" data-ride="carousel">
     <div  class="carousel-inner">
       <div  class="text-center carousel-item active ">
          <img class="float-center w-100" id="" src="mainimages/p1.png"alt=""> 
        <div class="carousel-caption d-sm-block d-non d-md-block">
-          <div class="carousel-div ">   
+          <div class="carousel-div cd ">   
             <h3 class="text-center bg-dark text-light" id="infos">Fast ...</h3> 
-	    <div class="col-12 justify-content-center btn-group-sm d-sm-inline-flex">
+	    <div class="col-12 justify-content-center btn-group-sm d-sm-inline-block">
         <div class="d-sm-inline-flex gy-0 gx-0 row-cols-sm-12">
             <a href="/about.html" class="btn btn-primary mr-lg-2 ">About us</a>
             <a href="https://github.com/mohannad-aldulaimi/dragonframework" target="_blank" class="btn mr-lg-2 btn-success 2">Dragon-Ring</a>
+            <a href="https://dragon-ring-docs.github.io/" target="_blank" class="btn btn-secondary ml-lg-2 col-lg-3 col-md-3 col-sm-12 ">Documentation</a>
+            <a href="https://github.com/mohannad-aldulaimi/dragonframework/raw/master/Dragon-Ring-Installer-Tool.rar" target="_blank" class="btn btn-danger ml-lg-2  col-lg-3 col-md-3 col-sm-12">Get GUI Installer</a>  
         </div>
-          <a href="https://dragon-ring-docs.github.io/" target="_blank" class="btn btn-secondary ml-lg-2 col-lg-3 col-md-3 col-sm-12 ">Documentation</a>
-          <a href="https://github.com/mohannad-aldulaimi/dragonframework/raw/master/Dragon-Ring-Installer-Tool.rar" target="_blank" class="btn btn-danger ml-lg-2  col-lg-3 col-md-3 col-sm-12">Get GUI Installer</a>
      </div>  
 	 </div>
       </div>
