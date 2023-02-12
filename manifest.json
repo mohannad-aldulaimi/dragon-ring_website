@@ -1,0 +1,24 @@
+{
+    "short_name": "Dragon-Ring",
+    "name": "Dragon-Ring PWA",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "type": "image/png",
+        "sizes": "983x983"
+      },
+      {
+        "src": "/favicon.ico",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#212121",
+    "background_color": "#00000",
+    "orientation" : "portrait",
+    "scope":"/",
+    "splash_pages":null
+  }
+  
